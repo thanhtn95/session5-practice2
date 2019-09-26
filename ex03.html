@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [];
+    let count = 0;
+    let length = parseInt(prompt("Nhap do dai array: "));
+    for (i = 0; i < length; i++) {
+        let tmp = prompt("Nhap phan tu thu " + (i + 1) + " :");
+        a[i] = tmp;
+        if (!isNaN(tmp)) {
+            count++;
+        }
+    }
+    document.write('Co ' + count + ' ky tu so trong array nhap vao');
+
+</script>
+</body>
+</html>
